@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            using (System.IO.StringReader reader = new System.IO.StringReader(DayInput))
+            using (StringReader reader = new (DayInput))
             {
                 int total = 0;
                 string line;
@@ -17,7 +17,7 @@
                 Console.WriteLine("Total old way:" + total);
             }
 
-            using (System.IO.StringReader reader = new System.IO.StringReader(DayInput))
+            using (StringReader reader = new (DayInput))
             {
                 int total = 0;
                 string line;

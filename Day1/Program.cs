@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             List<Elf> elves = new List<Elf>();
-            using (System.IO.StringReader reader = new System.IO.StringReader(DayInput))
+            using (StringReader reader = new (DayInput))
             {
                 string line;
                 Elf elf = new Elf();
